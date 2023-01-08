@@ -1,0 +1,39 @@
+@import "constans.scss";
+@import "reset.scss";
+
+.header{
+    background-color: $dark;
+.nav{
+    @include justify-width(space-between,87% );
+    margin: 9px auto;
+    padding: {
+        top:25px;
+        bottom: 25px;
+    };
+    &_logo{
+        color:$main;
+        font-size: 30px;
+    }
+    &_navbar{
+        @include justify-width(space-between,60% );
+        color: $main;
+    }
+}
+}
+
+.container{
+    @include justify-width(space-between,87% );
+    margin: 100px auto;
+    
+.col{
+    width: 30%;
+    height: 200px;
+    background-color: $dark;
+}
+}
+
+//scss comment
+
+/*
+css comment
+*/
